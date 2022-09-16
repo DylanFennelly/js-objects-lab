@@ -20,7 +20,7 @@ const aCar = {
       year : 201,
       countyCode : 'WD',
       number : 1058
-    },
+    }, 
     
   };
   
