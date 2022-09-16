@@ -9,9 +9,21 @@ const aCar = {
       year : 201,
       countyCode : 'WD',
       number : 1058
-    }
+    },
+    
   };
   
   console.log(aCar.owner);
   console.log(aCar.owner + ' drives a ' + aCar.type.make)
   console.log('Reg. = ' + aCar.registration.year + '-' + aCar.registration.countyCode + '-' + aCar.registration.number)
+
+  aCar.mileage = 10000;
+  aCar.colour = {
+    exterior : 'Red',
+    interiorFabric : {
+      texture : 'Leather',
+      shade : 'Cream'
+    }
+  }
+
+  console.log('It is a ' + aCar.colour.exterior + ' car, ' + aCar.mileage + ", with " + aCar.colour.interiorFabric.texture + " interior.")
